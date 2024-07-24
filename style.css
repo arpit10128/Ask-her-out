@@ -1,0 +1,50 @@
+body{
+    background-color:  rgb(189, 225, 122) ;
+}
+#yesButton{
+    position: absolute;
+    margin-right: 150px;
+}
+#noButton{
+    position: absolute;
+    margin-left: 150px;
+    transition: 0.5s;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4vh;
+    color: white;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.button{
+    margin-right: 7vh;
+    padding: 2vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    border-radius: 1vh;
+    background-color: white;
+    color: red;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.text-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15vh;
+    color: white;
+}
